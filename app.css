@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+.navbar-container {
+  background-color: #4caf50;
+  padding: 10px 20px;
+}
+.navbar-container .page-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+.page-links li a,
+.page-links .buttonReg {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+.buttonReg {
+  background-color: #008cba;
+}
+.page-links li a:hover,
+.page-links .buttonReg:hover {
+  opacity: 0.8;
+}
+.image-area img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+  opacity: 0.7;
+}
+.image-title {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: bold;
+}

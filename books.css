@@ -1,0 +1,42 @@
+.books-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card-box {
+  position: relative;
+  border-radius: 30px;
+  border: 0;
+  padding: 1.5rem;
+  box-shadow: 0 25px 25px rgba(36, 39, 44, 0.05);
+  margin-top: 60px;
+}
+.card-body {
+  padding-top: 0.5rem;
+  margin-top: 1.5rem;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.card-title {
+  color: #24272c;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+card-text {
+  color: #8492a6;
+  margin-top: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.card img {
+  width: 150px;
+  height: 250px;
+  background-size: cover;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ödünç Alınanlar</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="odunc.css" />
+  </head>
+  <body>
+    <header class="menu-container">
+      <div class="navbar-container">
+        <nav class="page container-md">
+          <ul class="page-links">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="books.html">Kitaplar</a></li>
+            <li><a href="odunc.html">Ödünç Alınanlar</a></li>
+            <li><a href="account.html">Profil</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="card">
+        <h2>Kitap Ekle</h2>
+        <form id="addBookForm">
+          <label
+            >Kitap Adı:
+            <input type="text" id="titleInput" class="input" required />
+          </label>
+          <label
+            >Yazar:
+            <input type="text" id="authorInput" class="input" required />
+          </label>
+          <button type="submit">Ekle</button>
+        </form>
+        <div class="card-body">
+          <h5 class="card-title">Ödünç Alınanlar Listesi</h5>
+          <form name="form2" id="bookListForm">
+            <input
+              type="text"
+              id="bookSearch"
+              class="form-control"
+              placeholder="Kitap Arayınız"
+            />
+          </form>
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between">
+              <a href="#" class="delete-item">
+                <i class="fa fa-remove"></i>
+              </a>
+            </li>
+          </ul>
+          <a href="#" id="clearButton">Tüm Kitapları Temizle</a>
+        </div>
+      </div>
+    </header>
+    <script src="odunc.js"></script>
+  </body>
+</html>
