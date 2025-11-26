@@ -1,0 +1,39 @@
+.form-title {
+  margin-bottom: 20px;
+  color: #4caf50;
+}
+.container-reg {
+  background: #ffffff;
+  padding: 30px 40px;
+  margin: 150px auto 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+.container-reg p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+.container-reg button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#logoutBtn {
+  background-color: #d32f2f;
+  color: white;
+}
+#logoutBtn:hover {
+  background-color: #d32f2f;
+}
+#deleteBtn {
+  background-color: #ff9800;
+  color: white;
+}
+#deleteBtn:hover {
+  background-color: #fb8c00;
+}
