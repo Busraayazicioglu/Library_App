@@ -16,7 +16,8 @@ if (!currentUser) {
 
 logoutBtn.addEventListener("click", function () {
   alert("Çıkış Yapıldı!");
-  window.location.href = "reg.html";
+
+  window.location.href = "login.html";
 });
 
 deleteBtn.addEventListener("click", function () {
