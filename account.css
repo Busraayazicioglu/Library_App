@@ -37,3 +37,14 @@
 #deleteBtn:hover {
   background-color: #fb8c00;
 }
+@media (max-width: 768px) {
+  .container-reg {
+    margin: 80px auto;
+  }
+}
+@media (max-width: 480px) {
+  .container-reg {
+    padding: 20px;
+    margin: 40px auto;
+  }
+}

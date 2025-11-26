@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt Ol</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <header class="menu-container">
+      <div class="navbar-container">
+        <nav class="page container-md">
+          <ul class="page-links">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="books.html">Kitaplar</a></li>
+            <li><a href="odunc.html">Ödünç Alınanlar</a></li>
+            <li><a href="account.html">Profil</a></li>
+            <a href="login.html" class="buttonReg">Giriş</a>
+            <a href="register.html" class="buttonReg">Kayıt Ol</a>
+          </ul>
+        </nav>
+      </div>
+      <div class="container-reg">
+        <form id="regForm">
+            <h3 class="reg-title">
+                Kayıt Ol
+            </h3>
+            <div class="register">
+                <label>İsim:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="register">
+                <label>Soyisim:</label>
+                <input type="text" class="form-control" id="surname" required>
+            </div>
+            <div class="register">
+                <label>Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="register">
+                <label>Şifre:</label>
+                <input type="password" class="form-control" id="password" required>
+            </div>
+            <button type="submit" class="btn">Kayıt Ol</button>
+            <p class="reg-text">Zaten hesabın var mı?
+                <a href="login.html">Giriş Yap</a>
+            </p>
+        </form>
+      </div>
+    <script src="register.js"></script>
+  </body>
+</html>

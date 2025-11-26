@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giriş</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <header class="menu-container">
+      <div class="navbar-container">
+        <nav class="page container-md">
+          <ul class="page-links">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="books.html">Kitaplar</a></li>
+            <li><a href="odunc.html">Ödünç Alınanlar</a></li>
+            <li><a href="account.html">Profil</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container-login">
+        <form class="loginForm">
+            <h3 class="form-title">Giriş</h3>
+            <div class="input">
+                <label class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="input">
+            <label class="form-label">Şifre:</label>
+            <input type="password" class="form-control" id="password" required>
+            </div>
+            <button type="submit" class="btn">Giriş Yap</button>
+            <p class="btnText">Hesabın Yok Mu?
+                <a href="register.html">Kayıt Ol</a>
+            </p>
+        </form>
+      </div>
+    <script src="login.js"></script>
+  </body>
+</html>
